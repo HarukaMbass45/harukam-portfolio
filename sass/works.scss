@@ -1,0 +1,166 @@
+@import 'common.scss';
+
+@media screen and (min-width: 1200px){
+  main {
+    .page-title {
+      margin: {
+        top: 2em;
+        bottom: 2em;
+      }
+      .page-title-text {
+        text-align: center;
+      }
+    }
+    .work {
+      align-items: center;
+      margin: {
+        top: 60px;
+        bottom: 60px;
+      }
+      .work-thumbnail {
+        width: 500px;
+
+        img {
+          width: 100%;
+          border: solid 1px $gray;
+        }
+
+        .no-image {
+          width: 500px;
+          text-align: center;
+          padding: {
+            top: 120px;
+            bottom: 120px;
+          }
+          border: solid 1px $gray;
+          background: #eee;
+        }
+      }
+      .work-description {
+        width: 550px;
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+
+          .label {
+            width: 30%;
+          }
+          .content {
+            width: 68%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  main {
+    .page-title {
+      margin: {
+        top: 2em;
+        bottom: 2em;
+      }
+      .page-title-text {
+        text-align: center;
+      }
+    }
+    .work {
+      align-items: center;
+      margin: {
+        top: 60px;
+        bottom: 60px;
+      }
+      .work-thumbnail {
+        width: 100%;
+        text-align: center;
+
+        img {
+          width: 500px;
+          border: solid 1px $gray;
+        }
+
+        .no-image {
+          width: 500px;
+          text-align: center;
+          margin: 0 auto;
+          padding: {
+            top: 120px;
+            bottom: 120px;
+          }
+          border: solid 1px $gray;
+          background: #eee;
+        }
+      }
+      .work-description {
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+
+          .label {
+            width: 30%;
+          }
+          .content {
+            width: 68%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    .page-title {
+      margin: {
+        top: 2em;
+        bottom: 2em;
+      }
+      .page-title-text {
+        text-align: center;
+      }
+    }
+    .work {
+      align-items: center;
+      margin: {
+        top: 60px;
+        bottom: 60px;
+      }
+      .work-thumbnail {
+        width: 100%;
+
+        img {
+          width: 100%;
+          border: solid 1px $gray;
+        }
+
+        .no-image {
+          width: 500px;
+          text-align: center;
+          padding: {
+            top: 120px;
+            bottom: 120px;
+          }
+          border: solid 1px $gray;
+          background: #eee;
+        }
+      }
+      .work-description {
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+
+          .label {
+            width: 30%;
+          }
+          .content {
+            width: 68%;
+          }
+        }
+      }
+    }
+  }
+}
