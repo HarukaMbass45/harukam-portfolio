@@ -12,3 +12,5 @@
 - HTML
 - CSS
 - Node.js v14.17.5
+
+# LaravelでMVCモデルを勉強しながら改修しよう計画
